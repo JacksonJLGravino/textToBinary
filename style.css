@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+header {
+  position: fixed;
+  color: green;
+  background: black;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.fundo {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-inline: auto;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+}
+
+#text {
+  resize: none;
+}
+
+.area {
+  width: 100%;
+  max-width: 325px;
+  height: auto;
+  background: black;
+  color: green;
+}
+
+.area p {
+  margin: 5px;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  background: orange;
+  bottom: 0;
+  height: 20px;
+}
