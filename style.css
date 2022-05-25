@@ -37,23 +37,29 @@ main {
   flex-direction: column;
   margin-top: 100px;
   margin-inline: auto;
+  max-width: 768px;
 }
 
 .texto {
   display: flex;
   flex-direction: column;
+  margin-bottom: 50px;
 }
 
-#text {
-  resize: none;
-}
-
-.area {
-  width: 100%;
-  max-width: 325px;
-  height: auto;
+.texto button {
+  width: 100px;
+  padding: 7px;
   background: black;
   color: green;
+  border: 1px solid green;
+  margin-top: 15px;
+}
+
+textarea {
+  background: black;
+  color: green;
+  padding: 5px;
+  resize: none;
 }
 
 .area p {
@@ -63,7 +69,23 @@ main {
 footer {
   position: fixed;
   width: 100%;
-  background: orange;
+  background: black;
+  color: green;
   bottom: 0;
   height: 20px;
+}
+
+.container {
+  max-width: 768px;
+  margin-inline: auto;
+}
+
+@media (min-width: 600px) {
+  .box {
+    flex-direction: row;
+  }
+
+  .area {
+    margin-left: 80px;
+  }
 }

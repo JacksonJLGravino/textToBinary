@@ -18,17 +18,31 @@
 
       <div class="box">
         <div class="texto">
-          <textarea name="" id="text" cols="30" rows="10"></textarea>
-          <button type="submit" onclick="Converter()">convert</button>
+          <textarea
+            placeholder="write here....."
+            name=""
+            id="text"
+            cols="25"
+            rows="10"
+          ></textarea>
+          <button type="submit" onclick="Converter()">Convert</button>
         </div>
 
         <div class="area">
-          <p id="valorConvertido"></p>
+          <textarea
+            readonly
+            name=""
+            id="valorConvertido"
+            cols="22"
+            rows="10"
+          ></textarea>
         </div>
       </div>
     </main>
 
-    <footer>Jackson Gravino</footer>
+    <footer>
+      <div class="container">Jackson Gravino</div>
+    </footer>
 
     <script src="main.js"></script>
   </body>

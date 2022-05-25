@@ -48,8 +48,11 @@ function Converter() {
       '(' +
       valorConvertido[a] +
       ')' +
-      valorConvertido[a].charCodeAt(0).toString(2) +
-      '\n'
+      valorConvertido[a].charCodeAt(0).toString(2)
   }
   elementoValorConvertido.innerHTML = convercao
+}
+
+window.onresize = function () {
+  location.reload()
 }
