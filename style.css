@@ -72,12 +72,20 @@ footer {
   background: black;
   color: green;
   bottom: 0;
-  height: 20px;
+  height: 25px;
+  padding-top: 3px;
 }
 
 .container {
   max-width: 768px;
   margin-inline: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container a {
+  margin: 0 5px;
+  text-decoration: none;
 }
 
 @media (min-width: 600px) {
