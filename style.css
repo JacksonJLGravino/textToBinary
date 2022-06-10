@@ -67,11 +67,11 @@ textarea {
 }
 
 footer {
-  position: fixed;
+  position: relative;
+  bottom: auto;
   width: 100%;
   background: black;
   color: green;
-  bottom: 0;
   height: 25px;
   padding-top: 3px;
 }
@@ -100,5 +100,17 @@ footer {
 
   .area {
     margin-left: 80px;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+  }
+}
+
+@media (max-height: 365px) {
+  footer {
+    position: relative;
+    bottom: auto;
   }
 }
