@@ -2,11 +2,8 @@
 
 ## Sobre
 
-<p>Esse projeto foi feito com o uma forma de aprimorar minhas abilidades em JavaScript</p>
+<p>Esse projeto é um conversor de texto em código binário, além de possuir um fundo animado estilo matrix</p>
 
-## Características
-
-<p>Fundo animado com referencia em matrix e um conversor de texto em binario</p>
 
 ## Tecnologias usadas
 
